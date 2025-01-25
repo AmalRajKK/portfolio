@@ -1,217 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amal Raj KK</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="/images/fav.png">  
-      <script src="https://kit.fontawesome.com/50e82a7503.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="icon" type="image/x-icon" href="/images/fav.png" />
+    <script
+      src="https://kit.fontawesome.com/50e82a7503.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!-- Header -->
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="images/amal.png"  class="logo" alt="Logo" />
-                <ul id="sideMenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>Software Developer</p>
-                <h1>
-                    Hi, I'm <span>Amal Raj</span><br />
-                    From India
-                </h1>
-            </div>
+      <div class="container">
+        <nav>
+          <img src="images/amal.png" class="logo" alt="Logo" />
+          <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>
+            Hi, I'm <span>Amal Raj</span><br />
+            From India
+          </h1>
         </div>
+      </div>
     </div>
 
     <!-- About Section -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/user1.jpeg" alt="User Image" />
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>
-                        Life is a journey filled with lessons, growth, and discovery.
-                        Each moment offers opportunities to learn, love, and create
-                        lasting memories.
-                    </p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
-                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
-                        <p class="tab-links" onclick="openTab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Web Development</span><br />Web App Development</li>
-                            <li><span>JavaScript</span><br />Interactive Development</li>
-                            <li><span>Python</span><br />Backend Development</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>Software Developer</span><br />3 years at XYZ Corp</li>
-                            <li><span>Web Developer</span><br />2 years at ABC Solutions</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>Bachelor's in Computer Science</span><br />XYZ University</li>
-                            <li><span>High School</span><br />ABC High School</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user1.jpeg" alt="User Image" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Innovative Software Developer skilled in Python, Java, JavaScript.
+              Problem solver, team player. Committed to continuous learning.
+              Seeking dynamic development role.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+              <p class="tab-links" onclick="openTab('language')">Language</p>
+
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>PHP</span><br />Laravel development</li>
+                <li><span>Python</span><br />Django Backend Development</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li><span>JavaScript</span><br />Interactive Development</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Software Developer</span><br /> August 2024 <br>Mojgenie It Solutions PVT LTD
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                    <span>Master of Science in Computer Science</span><br />Kannur
+                    University
+                  </li>
+                <li>
+                  <span>Bachelor's in Computer Science</span><br />Kannur
+                  University
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="language">
+                <ul>
+                  <li>
+                      <span>Malayalam</span><br />Native
+                    </li>
+                  <li>
+                    <span>English</span><br />* * * *
+                  </li>
+                  <li>
+                    <span>Hindi</span><br />* * * *
+                  </li>
+                  <li>
+                    <span>Tamil</span><br />* * * 
+                  </li>
+                </ul>
+              </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Services Section -->
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Designing modern and responsive websites for your needs.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-crop"></i>
-                    <h2>UI/UX Design</h2>
-                    <p>Creating intuitive and user-friendly interface designs.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-app-store"></i>
-                    <h2>App Development</h2>
-                    <p>Building scalable and efficient mobile applications.</p>
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Software Developing</h2>
+            <p>Crafting innovative and reliable software solutions tailored to your business needs.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>Creating intuitive and user-friendly interface designs.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web Design</h2>
+            <p>Building scalable and efficient web applications.</p>
+            <a href="#">Learn more</a>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Portfolio Section -->
     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/work-1.png" alt="Project 1" />
-                    <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Developed a social media platform for sharing content.</p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-2.png" alt="Project 2" />
-                    <div class="layer">
-                        <h3>E-Commerce Website</h3>
-                        <p>Built an online store with advanced shopping features.</p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-3.png" alt="Project 3" />
-                    <div class="layer">
-                        <h3>Portfolio Website</h3>
-                        <p>Showcase of design and development skills.</p>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="Project 1" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>Developed a social media platform for sharing content.</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
             </div>
-            <a href="#" class="btn">See more</a>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="Project 2" />
+            <div class="layer">
+              <h3>E-Commerce Website</h3>
+              <p>Built an online store with advanced shopping features.</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="Project 3" />
+            <div class="layer">
+              <h3>Portfolio Website</h3>
+              <p>Showcase of design and development skills.</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
         </div>
+        <a href="#" class="btn">See more</a>
+      </div>
     </div>
 
     <!-- Contact Section -->
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i> amalrajkk2000@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i> +91 9961774615</p>
-                    <div class="social-icons">
-                        <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
-                        <a href="https://www.instagram.com/amalraj.k.k?igsh=MTZ2eDdhenMwM3J4aQ=="><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://github.com/AmalRajKK"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/amalrajkk?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-                        "><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                    <a href="images/AMALRAJ RESUME.pdf" download class="btn btn-2">Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="name" placeholder="Your Name" required />
-                        <input type="email" name="email" placeholder="Your Email" required />
-                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
-                        <button type="submit" class="btn btn-2">Submit</button>
-                    </form>
-                    <span id="msg"></span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> amalrajkk2000@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +91 9961774615</p>
+            <div class="social-icons">
+              <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
+              <a
+                href="https://www.instagram.com/amalraj.k.k?igsh=MTZ2eDdhenMwM3J4aQ=="
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://github.com/AmalRajKK"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/amalrajkk?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                        "
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
             </div>
+            <a href="images/AMALRAJ RESUME.pdf" download class="btn btn-2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn-2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
-        <div class="copyright">
-            <p>© 2025 Amal Raj. All rights reserved.</p>
-        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2025 Amal Raj. All rights reserved.</p>
+      </div>
     </div>
 
     <!-- JavaScript -->
     <script>
-        const tabLinks = document.getElementsByClassName("tab-links");
-        const tabContents = document.getElementsByClassName("tab-contents");
+      const tabLinks = document.getElementsByClassName("tab-links");
+      const tabContents = document.getElementsByClassName("tab-contents");
 
-        function openTab(tabName) {
-            for (let tabLink of tabLinks) {
-                tabLink.classList.remove("active-link");
-            }
-            for (let tabContent of tabContents) {
-                tabContent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabName).classList.add("active-tab");
+      function openTab(tabName) {
+        for (let tabLink of tabLinks) {
+          tabLink.classList.remove("active-link");
         }
+        for (let tabContent of tabContents) {
+          tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
 
-        const sideMenu = document.getElementById("sideMenu");
-        function openMenu() {
-            sideMenu.style.right = "0";
-        }
-        function closeMenu() {
-            sideMenu.style.right = "-200px";
-        }
+      const sideMenu = document.getElementById("sideMenu");
+      function openMenu() {
+        sideMenu.style.right = "0";
+      }
+      function closeMenu() {
+        sideMenu.style.right = "-200px";
+      }
     </script>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyWXxuBz3wA0ecwZ0tOI_1gv9LXzezfj89Q7UwMlvlTYjVk9PbNjco72p_K3cgXXBwzUg/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML="Message sent successfully"
-                setTimeout(function(){
-                    msg.innerHTML=" "
-                },5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
-</body>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyWXxuBz3wA0ecwZ0tOI_1gv9LXzezfj89Q7UwMlvlTYjVk9PbNjco72p_K3cgXXBwzUg/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = " ";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
 </html>
